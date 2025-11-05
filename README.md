@@ -24,6 +24,12 @@ User-friendly UI: progress bar, live log, and minimal setup friction.
 
 Packaging-friendly: designed to bundle with PyInstaller (icons/assets handled via resource_path; Shapely/pyproj/fiona hooks supported by _pyinstaller_hooks_contrib).
 
+Quick start
+# Python 3.11–3.12 recommended
+pip install osmnx geopandas shapely fiona pyproj matplotlib pillow
+
+run GUI.py
+
 # A Global Urban Road Network Self-Adaptive Simplification Workflow from Traffic to Spatial Representation
 
 Urban road network is crucial for understanding and revealing the spatial logic of urban organization and evolution. However, existing urban road network datasets like OpenStreetMap are designed for traffic studies, treating each lane as a distinct spatial unit of mobility, which may not align with urban studies considering each road as an integration space for social and cultural dynamics. This study established a novel workflow to self-adaptively transform the global urban road network from traffic representation to spatial representation. Our workflow, comprising six critical stages, is anchored on segment divergence from their surroundings to guide aggregation decisions, effectively mitigating the risks of over-aggregation and under-aggregation against the diversity of global urban backgrounds. This workflow is expected to become a robust data layer for urban socio-economic modelling and GeoAI development.
