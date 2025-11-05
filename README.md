@@ -6,8 +6,6 @@ What’s included
 
 OSMnx integration: geocode a place, fetch the street network (point buffer or polygon), and convert to GeoDataFrames.
 
-Powered by OSMnx (Geoff Boeing) — repo: https://github.com/gboeing/osmnx Boeing, G. (2025). Modeling and Analyzing Urban Networks and Amenities with OSMnx. Geographical Analysis, published online ahead of print. doi:10.1111/gean.70009
-
 Local data support: load .shp, and auto-generate stable full_ids when missing.
 
 Fast intersection detection: Shapely 2.x STRtree with predicate="intersects" plus multiprocessing workers (WKB-based payloads) to collect split nodes robustly and quickly on large graphs. Safe fallback for older builds.
@@ -29,6 +27,11 @@ Python 3.11–3.12 recommended
 pip install osmnx geopandas shapely fiona pyproj matplotlib pillow
 
 python GUI.py
+
+#Sources
+
+OSMnx — repo: https://github.com/gboeing/osmnx Boeing, G. (2025). Modeling and Analyzing Urban Networks and Amenities with OSMnx. Geographical Analysis, published online ahead of print.  https://doi.org/10.1111/gean.70009
+SpatialRepresentationURN repo: https://github.com/Xinzhuo-Zhao/SpatialRepresentationURN . Zhao, X., Xu, J., Yang, J. et al. A global urban road network self-adaptive simplification workflow from traffic to spatial representation. Sci Data 12, 883 (2025). https://doi.org/10.1038/s41597-025-05164-9
 
 # A Global Urban Road Network Self-Adaptive Simplification Workflow from Traffic to Spatial Representation
 
