@@ -6,7 +6,7 @@ What’s included
 
 OSMnx integration: geocode a place, fetch the street network (point buffer or polygon), and convert to GeoDataFrames.
 
-# Powered by OSMnx (Geoff Boeing) — repo: https://github.com/gboeing/osmnx
+Powered by OSMnx (Geoff Boeing) — repo: https://github.com/gboeing/osmnx
 
 Local data support: load .shp, and auto-generate stable full_ids when missing.
 
