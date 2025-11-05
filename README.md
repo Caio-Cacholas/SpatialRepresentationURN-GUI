@@ -24,11 +24,11 @@ User-friendly UI: progress bar, live log, and minimal setup friction.
 
 Packaging-friendly: designed to bundle with PyInstaller (icons/assets handled via resource_path; Shapely/pyproj/fiona hooks supported by _pyinstaller_hooks_contrib).
 
-Quick start
-# Python 3.11–3.12 recommended
+# Quick start
+Python 3.11–3.12 recommended
 pip install osmnx geopandas shapely fiona pyproj matplotlib pillow
 
-run GUI.py
+python GUI.py
 
 # A Global Urban Road Network Self-Adaptive Simplification Workflow from Traffic to Spatial Representation
 
