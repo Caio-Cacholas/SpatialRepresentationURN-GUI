@@ -30,8 +30,8 @@ python GUI.py
 
 # Sources
 
-OSMnx — repo: https://github.com/gboeing/osmnx Boeing, G. (2025). Modeling and Analyzing Urban Networks and Amenities with OSMnx. Geographical Analysis, published online ahead of print.  https://doi.org/10.1111/gean.70009
-SpatialRepresentationURN repo: https://github.com/Xinzhuo-Zhao/SpatialRepresentationURN . Zhao, X., Xu, J., Yang, J. et al. A global urban road network self-adaptive simplification workflow from traffic to spatial representation. Sci Data 12, 883 (2025). https://doi.org/10.1038/s41597-025-05164-9
+- OSMnx - repo: https://github.com/gboeing/osmnx Boeing, G. (2025). Modeling and Analyzing Urban Networks and Amenities with OSMnx. Geographical Analysis, published online ahead of print.  https://doi.org/10.1111/gean.70009
+- SpatialRepresentationURN - repo: https://github.com/Xinzhuo-Zhao/SpatialRepresentationURN . Zhao, X., Xu, J., Yang, J. et al. A global urban road network self-adaptive simplification workflow from traffic to spatial representation. Sci Data 12, 883 (2025). https://doi.org/10.1038/s41597-025-05164-9
 
 # A Global Urban Road Network Self-Adaptive Simplification Workflow from Traffic to Spatial Representation
 
