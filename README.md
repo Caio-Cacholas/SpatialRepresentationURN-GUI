@@ -1,11 +1,12 @@
-SpatialRepresentationURN — OSMnx-powered GUI Fork
+# SpatialRepresentationURN — OSMnx-powered GUI Fork
 
 This fork adds a desktop GUI and an OSMnx-based ingestion pipeline on top of the original SpatialRepresentationURN project. It lets you search and download OpenStreetMap road networks, or load local shapefiles, preview them in synchronized side-by-side maps, and then convert to the URN representation using the project’s original graph-building routines—all in one place and packaged for easy distribution.
 
 What’s included
 
 OSMnx integration: geocode a place, fetch the street network (point buffer or polygon), and convert to GeoDataFrames.
-Powered by OSMnx (Geoff Boeing) — repo: https://github.com/gboeing/osmnx
+
+# Powered by OSMnx (Geoff Boeing) — repo: https://github.com/gboeing/osmnx
 
 Local data support: load .shp, and auto-generate stable full_ids when missing.
 
