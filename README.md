@@ -20,8 +20,6 @@ One-click conversion & export: runs Crossing_Checking and GraphBuilder, saves th
 
 User-friendly UI: progress bar, live log, and minimal setup friction.
 
-Packaging-friendly: designed to bundle with PyInstaller (icons/assets handled via resource_path; Shapely/pyproj/fiona hooks supported by _pyinstaller_hooks_contrib).
-
 # Quick start
 Python 3.11–3.12 recommended
 pip install osmnx geopandas shapely fiona pyproj matplotlib pillow
